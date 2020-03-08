@@ -43,9 +43,8 @@ OpenVINO toolkit
 Image of the Model
 Image of the t-shirt/polo/etc
 
-```
-Give examples
-```
+![Alt text](image/human.jpeg?raw=true "Image of the Model")
+![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
 
 ### Installing
 
