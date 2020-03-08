@@ -47,6 +47,8 @@ Image of the t-shirt/polo/etc
 
 ![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
 ![Alt text](image/human.jpeg?raw=true "Image of the Model", width="350" height="500")
+![](https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/human.jpeg =350x500)
+
 
 ### Installing
 
