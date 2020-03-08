@@ -45,11 +45,9 @@ OpenVINO toolkit
 Image of the Model
 Image of the t-shirt/polo/etc
 
-![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
-![Alt text](image/human.jpeg?raw=true "Image of the Model" | width="350" height="500")
-![]( =350x500)
-
 <img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/human.jpeg" alt="Model" width="350" height="500">
+![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
+![Alt text](image/tshirt2.jpg?raw=true "Image of the t-shirt2")
 
 
 ### Installing
@@ -69,6 +67,9 @@ To test your implementations, you can use app.py to run each edge application, w
 As an example, here is an example of running the app with related arguments
 
 python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"
+
+![Alt text](outputs/tshirt_try_on1.png?raw=true "Image of the result")
+![Alt text](outputs/tshirt_try_on2.png?raw=true "Image of the result2")
 
 ## License
 
