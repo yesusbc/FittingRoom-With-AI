@@ -46,6 +46,7 @@ Image of the Model
 Image of the t-shirt/polo/etc
 
 <img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/human.jpeg" alt="Model" width="350" height="500">
+
 ![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
 ![Alt text](image/tshirt2.jpg?raw=true "Image of the t-shirt2")
 
@@ -68,8 +69,11 @@ As an example, here is an example of running the app with related arguments
 
 python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"
 
-![Alt text](outputs/tshirt_try_on1.png?raw=true "Image of the result")
+![Alt text](outputs/tshirt_try_on1.png?raw=true )
 ![Alt text](outputs/tshirt_try_on2.png?raw=true "Image of the result2")
+
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on1.png" alt="Image of the result" width="350" height="500">
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on2.png" alt="Image of the result2" width="350" height="500">
 
 ## License
 
