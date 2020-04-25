@@ -1,8 +1,8 @@
 # FittingRoom-with-AI
 
-Tool to try on different t-shirts, using pose estimation with the OpenVINO toolkit 
+Tool to *try on different t-shirts*, using pose estimation with the *OpenVINO toolkit*
 
-This project was made for the Intel® Edge AI Scholarship Foundation Course Nanodegree Program.
+This project was made for the _Intel® Edge AI Scholarship_ Foundation Course Nanodegree Program.
 
 ## Getting Started
 
@@ -41,15 +41,15 @@ About the files:
 
 ### Prerequisites
 
-OpenVINO toolkit
-Image of the Model
-Image of the t-shirt/polo/etc
+* OpenVINO toolkit
+* Image of the Model
+* Image of the t-shirt/polo/etc
 
-<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/human.jpeg" alt="Model" width="350" height="500">
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/human.jpeg" alt="Model" width="300" height="450">
 
 ![Alt text](image/tshirt.jpg?raw=true "Image of the t-shirt")
 
-<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/tshirt2.jpg" alt="Image of the t-shirt2" width="250" height="250">
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/image/tshirt2.jpg" alt="Image of the t-shirt2" width="200" height="200">
 
 ### Installing
 
@@ -67,15 +67,11 @@ To test your implementations, you can use app.py to run each edge application, w
 
 As an example, here is an example of running the app with related arguments
 
-python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"
+`python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"`
 
-<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on1.png" alt="Image of the result" width="350" height="500">
-<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on2.png" alt="Image of the result2" width="350" height="500">
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on1.png" alt="Image of the result" width="300" height="450">
+<img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on2.png" alt="Image of the result2" width="300" height="450">
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thanks for Mariana, for supporting me on the project
