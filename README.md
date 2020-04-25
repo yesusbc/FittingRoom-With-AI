@@ -58,16 +58,16 @@ https://software.intel.com/en-us/openvino-toolkit/choose-download?
 
 ## Running the tests
 
-To test your implementations, you can use app.py to run each edge application, with the following arguments:
+To test your implementations, you can use app.py to run each edge application, with the following arguments:  
 
--m: The location of the model .xml file
--i: The location of the input image (model) used for testing
--s: The location of the input image (t-shirt) used for testing
--c (optional): A CPU extension file, if applicable. See below for what this is for the workspace. The results of your output will be saved down for viewing in the outputs directory.
+* -m: The location of the model .xml file
+* -i: The location of the input image (model) used for testing
+* -s: The location of the input image (t-shirt) used for testing
+* -c (optional): A CPU extension file, if applicable. See below for what this is for the workspace. The results of your output will be saved down for viewing in the outputs directory.  
 
-As an example, here is an example of running the app with related arguments
+As an example, here is an example of running the app with related arguments  
 
-`python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"`
+`python app.py -i "image/human.jpeg" -m "intel/human-pose-estimation-0001/FP32/human-pose-estimation-0001.xml" -s "image/tshirt.jpg"`  
 
 <img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on1.png" alt="Image of the result" width="300" height="400">
 <img src="https://github.com/yesusbc/FittingRoom-With-AI/blob/master/outputs/tshirt_try_on2.png" alt="Image of the result2" width="300" height="400">
